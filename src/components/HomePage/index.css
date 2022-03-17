@@ -1,0 +1,89 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+}
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+}
+.list-item-div {
+  padding-left: 0px;
+  background-color: #1a171d;
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.add-task-div {
+  background-color: #131213;
+  width: 100vh;
+  padding-top: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #000000;
+  width: 100vh;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'roboto';
+}
+
+.main-heading {
+  color: #f3aa4e;
+  font-family: 'roboto';
+  font-weight: 'bold';
+}
+.nothing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+.nothing-para {
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.input {
+  padding: 5px;
+  width: 270px;
+  margin-bottom: 30px;
+}
+.label {
+  color: #f1f5f9;
+  font-family: 'roboto';
+  font-weight: 600;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  align-self: center;
+  background-color: #f3aa4e;
+  padding: 5px;
+  border-width: 0px;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0px;
+  list-style-type: none;
+}

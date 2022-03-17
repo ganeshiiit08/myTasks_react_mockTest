@@ -1,0 +1,23 @@
+.button {
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.styled{
+    background-color: #f3aa4e;
+    color: #ffffff;
+    border:0;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.button-v{
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+}
